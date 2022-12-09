@@ -15,6 +15,7 @@ const reducer = (state = {}, action) => {
       };
     case ITEM_PAGE_UNLOADED:
       return {};
+
     case ADD_COMMENT:
       return {
         ...state,
